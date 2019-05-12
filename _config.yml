@@ -1,0 +1,17 @@
+# Site settings
+title: Cosmin's Blog
+description: >
+    Cosmin's Blog 
+author: Cosmin Cojocar
+email: cosmin.cojocar@gmx.ch
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ccojocar.github.io" # the base hostname & protocol for your site
+twitter_username: CojocarCosmin
+github_username: ccojocar
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+sass:
+    style: compressed
